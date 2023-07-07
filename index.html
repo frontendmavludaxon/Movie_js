@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <title>Movies_js</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav_container">
+        <div class="nav_wrapper">
+          <div class="img_wrapper">
+            <img class="icon" src="./img/Group 5.png" alt="" />
+            <img class="logo" src="./img/Logo (1).png" alt="" />
+          </div>
+          <ul class="nav_list">
+            <li>
+                <select class="select_year extra">
+                    <option value="change year">change year</option>
+                    <option value="old">old</option>
+                    <option value="new">new</option>
+                </select>
+            </li>
+            <li>
+              <select class="select_rating extra">
+                <option value="change ranting">change rating</option>
+                <option value="max">max</option>
+                <option value="min">min</option>   
+            </select>
+            </li>
+            <li>
+              <select class="select_catagoriy extra">
+                <option value="change rating">change catagoriy</option>   
+              </select>
+              <li class="search">
+                <input type="text" class="search_inp form-control" placeholder="search movie">
+                <button class="search_btn">search</button>
+              </li> 
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="wrapper_big">
+        <main>
+          <section class="main_box">
+              <img
+                class="main_img"
+                src="./img/underground.png"
+                alt="underground"
+                width="1512"
+                height="702"
+              />
+          </section>
+
+         <h2 class="movie_title">latest and trending</h2>
+          <ul class="movie_list">
+
+          </ul>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./js/movies.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
